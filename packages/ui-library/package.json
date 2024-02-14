@@ -1,0 +1,22 @@
+{
+  "name": "ui-library",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "kaseraSwastik <swastik.k@brimo.in>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/ui-library.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "npx lerna run build"
+  },
+  "dependencies": {
+    "snabbdom": "^3.6.2"
+  }
+}
